@@ -1,0 +1,23 @@
+.image-button {
+  width: 100px;
+  height: 50px;
+  border: none;
+  background-image: url('1.jpg');
+  background-size: cover;
+}
+
+.image-button:hover {
+  opacity: 0.8;
+}
+
+.image-button:active {
+  transform: scale(0.95);
+}
+
+p{
+}
+
+p:hover{
+  transform: rotate(5deg);
+  color: green;
+}
