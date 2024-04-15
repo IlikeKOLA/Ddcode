@@ -1,68 +1,34 @@
 
 <html>
     
-    <body>  
+    <body> 
 
-        <cite>Курсив</cite><br>
+        <form name="forma1">
+            <input align="center" type="input" name="pole1" value="">
+            <a>Ширина прямоугольника</a><br><br>
 
-        <dfn>Определение</dfn><br>
+            <input align="center" type="input" name="pole2" value="">
+            <a>Высота прямоугольника</a>
 
-        <em>Фигня какая то</em><br>
+            <input align="center" type="button" name="btn" value="Вычислить периметр", onclick="start();"><br><br>
+        </form>
 
-        <strong>Жирный</strong><br>
 
-        <b>Я тоже, но другой</b><br>
-
-        <ins>Я подчеркнут</ins><br>
-
-        <u>И я</u><br>
-
-        <kbd>Я тонкий</kbd><br>
-
-        <samp>И я</samp><br>
-
-        <tt>я тож</tt><br>
-
-        H<sub>2</sub>0<br>
-
-        <sup>И я</sup><br>
-
-        <font color="blue">молчать</font>
-        <font color="red">я круче вас всех</font><br>
-
-        <b>Эй, как тебя зовут?</b><br>
-        <font color="lime">Я великий Font</font><br>
-        <b>Давай обьединимся!</b><br>
-        <font color="blue">И что я получу?</font><br>
-        <b>А сейчас и увидишь!</b><br>
-        <font color="green"><b>И что это такое?<b></font>
-        <font color="blue"><b>Вау, я теперь тоже жирный и цветной!</b></font><br>
-        <font color="blue"> <ins> <b>Что?</b> </ins> </font><br>
-        <font color="blue"> <cite> <ins> <b>Что это?</b> </ins> </cite> </font>
-        <i>Что то надвигается!</i><br>
-        <b> ну и что же</b><br>
-        <a href="https://youtube.com">эмм что </a>
-        <b class="pink">эээ<br>что со мной</b><br>
 
         <script type="text/javascript">
-            function showMessage(){
 
-                let name = prompt("Ты ещё кто?");
-                prompt(name + ", зачем ты вызвал меня?!")
-                document.write("<b>Это не он!</b><br>")
-                document.write("А кто?<br>")
-                document.write("<b>Я</b><br>")
-                document.write("Div, ты же понимаешь что это может стоить тебе ЖИЗНИ? <br>")
-                document.write("<b>Div: Да!</b><br>")
+            function start(){
+                let a;
+                a = document.forma1.pole1.value;
+                b = document.forma1.pole2.value;
+                document.write("Периметр: " + (a+b)*2);
             }
 
-            function showMessage2(){
-
-            }
 
         </script>
 
-        <div onClick="showMessage();">Щелкни меня, скорее!</div>
+
+
 
 
     </body>
