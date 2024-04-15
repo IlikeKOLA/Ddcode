@@ -1,23 +1,27 @@
-.image-button {
-  width: 100px;
-  height: 50px;
-  border: none;
-  background-image: url('1.jpg');
-  background-size: cover;
+
+font{
+
 }
 
-.image-button:hover {
-  opacity: 0.8;
+body{
+  background-color: rgb(150, 225, 150);
 }
 
-.image-button:active {
-  transform: scale(0.95);
+b:first-letter{
+  color:red;
 }
 
-p{
+b.pink{
+  color:brown;
 }
 
-p:hover{
-  transform: rotate(5deg);
-  color: green;
+a{
+  text-decoration:none;
+  color:brown;
+}
+
+
+a:hover{
+  color:red;
+  clear: none;
 }
